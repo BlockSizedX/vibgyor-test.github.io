@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Gallery | Vibgyor Advertising</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="gallery">
+
+  <main style="padding-top: 120px; padding-bottom: 80px;">
+    <section class="container reveal">
+      <h1 class="section-title">Our <span class="text-gradient">Work</span></h1>
+      <p class="section-subtitle">A glimpse into our recent printing, signage, and branding projects. Use the filters below to explore specific categories.</p>
+
+      <div class="filters reveal">
+        <button class="filter-chip active" data-filter="all">All Projects</button>
+        <button class="filter-chip" data-filter="flex">Flex Printing</button>
+        <button class="filter-chip" data-filter="uv">UV Printing</button>
+        <button class="filter-chip" data-filter="vinyl">Vinyl Prints</button>
+        <button class="filter-chip" data-filter="signage">Signage</button>
+      </div>
+
+      <div class="masonry-grid reveal" style="transition-delay: 0.2s;">
+        <!-- Gallery Items -->
+        <div class="gallery-item wide" data-category="signage">
+          <div class="gallery-placeholder">SIGNAGE PROJECT</div>
+          <div class="gallery-overlay">
+            <h4>Premium LED Shop Front</h4>
+            <p>3D Acrylic Letters with internal illumination</p>
+          </div>
+        </div>
+
+        <div class="gallery-item tall" data-category="uv">
+          <div class="gallery-placeholder">UV PRINTING</div>
+          <div class="gallery-overlay">
+            <h4>Acrylic Photo Frame</h4>
+            <p>Direct UV print on 5mm clear acrylic</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="flex">
+          <div class="gallery-placeholder">FLEX BANNER</div>
+          <div class="gallery-overlay">
+            <h4>Event Backdrop</h4>
+            <p>High-res star flex hoarding for corporate event</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="vinyl">
+          <div class="gallery-placeholder">VINYL WRAP</div>
+          <div class="gallery-overlay">
+            <h4>Glass Branding</h4>
+            <p>One-way vision vinyl on office exterior glass</p>
+          </div>
+        </div>
+
+        <div class="gallery-item tall" data-category="signage">
+          <div class="gallery-placeholder">PYLON SIGN</div>
+          <div class="gallery-overlay">
+            <h4>Freestanding Pylon</h4>
+            <p>Double-sided backlit pylon sign for mall entrance</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="uv">
+          <div class="gallery-placeholder">UV STANDEE</div>
+          <div class="gallery-overlay">
+            <h4>Sunboard Cutout</h4>
+            <p>Direct UV print and custom contour cut</p>
+          </div>
+        </div>
+
+        <div class="gallery-item wide" data-category="vinyl">
+          <div class="gallery-placeholder">VEHICLE WRAP</div>
+          <div class="gallery-overlay">
+            <h4>Fleet Branding</h4>
+            <p>Full cast vinyl vehicle wrapping with protective laminate</p>
+          </div>
+        </div>
+        
+        <div class="gallery-item" data-category="flex">
+          <div class="gallery-placeholder">BACKLIT FLEX</div>
+          <div class="gallery-overlay">
+            <h4>Store Main Board</h4>
+            <p>High-tension backlit flex glow sign board</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="components.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
