@@ -4,15 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
     <header id="header">
       <div class="container nav-container">
         <a href="index.html" class="logo">
-          <div class="logo-bars">
-            <div class="logo-bar"></div>
-            <div class="logo-bar"></div>
-            <div class="logo-bar"></div>
-            <div class="logo-bar"></div>
-            <div class="logo-bar"></div>
-            <div class="logo-bar"></div>
-            <div class="logo-bar"></div>
-          </div>
           Vibgyor
         </a>
         <nav class="nav-links" id="nav-links">
